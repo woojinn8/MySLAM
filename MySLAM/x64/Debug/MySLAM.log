@@ -1,64 +1,79 @@
 ﻿  VirtualWorld2D.cpp
-E:\source\MySLAM\MySLAM\VirtualWorld2D.cpp(58,59): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\source\MySLAM\MySLAM\VirtualWorld2D.cpp(163,14): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\source\MySLAM\MySLAM\VirtualWorld2D.cpp(164,74): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\source\MySLAM\MySLAM\VirtualWorld2D.cpp(173,23): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\source\MySLAM\MySLAM\VirtualWorld2D.cpp(174,53): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\source\MySLAM\MySLAM\VirtualWorld2D.cpp(181,12): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\source\MySLAM\MySLAM\VirtualWorld2D.cpp(182,12): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\source\MySLAM\MySLAM\VirtualWorld2D.cpp(222,64): warning C4244: '인수': 'float'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\source\SLAM\MySLAM\MySLAM\VirtualWorld2D.cpp(66,59): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\source\SLAM\MySLAM\MySLAM\VirtualWorld2D.cpp(143,14): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\source\SLAM\MySLAM\MySLAM\VirtualWorld2D.cpp(144,107): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\source\SLAM\MySLAM\MySLAM\VirtualWorld2D.cpp(148,111): warning C4244: '인수': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\source\SLAM\MySLAM\MySLAM\VirtualWorld2D.cpp(149,81): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\source\SLAM\MySLAM\MySLAM\VirtualWorld2D.cpp(192,64): warning C4244: '인수': 'float'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
               _Tp=int
           ]
-E:\source\MySLAM\MySLAM\VirtualWorld2D.cpp(222,46): warning C4244: '인수': 'float'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\source\SLAM\MySLAM\MySLAM\VirtualWorld2D.cpp(192,46): warning C4244: '인수': 'float'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
               _Tp=int
           ]
-E:\source\MySLAM\MySLAM\VirtualWorld2D.cpp(242,62): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\source\SLAM\MySLAM\MySLAM\VirtualWorld2D.cpp(227,62): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
               _Tp=float
           ]
-E:\source\MySLAM\MySLAM\VirtualWorld2D.cpp(242,36): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\source\SLAM\MySLAM\MySLAM\VirtualWorld2D.cpp(227,36): warning C4244: '인수': 'double'에서 '_Tp'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
               _Tp=float
           ]
-E:\source\MySLAM\MySLAM\VirtualWorld2D.cpp(244,14): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\source\MySLAM\MySLAM\VirtualWorld2D.cpp(252,14): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\source\MySLAM\MySLAM\VirtualWorld2D.cpp(254,59): warning C4244: '=': '_Tp'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\source\SLAM\MySLAM\MySLAM\VirtualWorld2D.cpp(229,14): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\source\SLAM\MySLAM\MySLAM\VirtualWorld2D.cpp(237,14): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\source\SLAM\MySLAM\MySLAM\VirtualWorld2D.cpp(239,59): warning C4244: '=': '_Tp'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
               _Tp=double
           ]
-E:\source\MySLAM\MySLAM\VirtualWorld2D.cpp(255,59): warning C4244: '=': '_Tp'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\source\SLAM\MySLAM\MySLAM\VirtualWorld2D.cpp(240,59): warning C4244: '=': '_Tp'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
               _Tp=double
           ]
-E:\source\MySLAM\MySLAM\VirtualWorld2D.cpp(278,23): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-E:\source\MySLAM\MySLAM\VirtualWorld2D.cpp(286,12): warning C4244: '초기화 중': '_Tp'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\source\SLAM\MySLAM\MySLAM\VirtualWorld2D.cpp(263,23): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\source\SLAM\MySLAM\MySLAM\VirtualWorld2D.cpp(271,12): warning C4244: '초기화 중': '_Tp'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
               _Tp=double
           ]
-E:\source\MySLAM\MySLAM\VirtualWorld2D.cpp(287,12): warning C4244: '초기화 중': '_Tp'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\source\SLAM\MySLAM\MySLAM\VirtualWorld2D.cpp(272,12): warning C4244: '초기화 중': '_Tp'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
               _Tp=double
           ]
-E:\source\MySLAM\MySLAM\VirtualWorld2D.cpp(328,49): warning C4244: '=': '_Tp'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\source\SLAM\MySLAM\MySLAM\VirtualWorld2D.cpp(274,51): warning C4244: '=': '_Tp'에서 'uchar'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
               _Tp=double
           ]
-E:\source\MySLAM\MySLAM\VirtualWorld2D.cpp(329,49): warning C4244: '=': '_Tp'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\source\SLAM\MySLAM\MySLAM\VirtualWorld2D.cpp(275,55): warning C4244: '=': '_Tp'에서 'uchar'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
               _Tp=double
           ]
-  main.cpp
-  코드를 생성하고 있습니다...
-  MySLAM.vcxproj -> E:\source\MySLAM\x64\Debug\MySLAM.exe
+E:\source\SLAM\MySLAM\MySLAM\VirtualWorld2D.cpp(276,55): warning C4244: '=': '_Tp'에서 'uchar'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=double
+          ]
+E:\source\SLAM\MySLAM\MySLAM\VirtualWorld2D.cpp(320,38): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\source\SLAM\MySLAM\MySLAM\VirtualWorld2D.cpp(323,38): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\source\SLAM\MySLAM\MySLAM\VirtualWorld2D.cpp(334,19): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\source\SLAM\MySLAM\MySLAM\VirtualWorld2D.cpp(337,37): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+E:\source\SLAM\MySLAM\MySLAM\VirtualWorld2D.cpp(348,49): warning C4244: '=': '_Tp'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=double
+          ]
+E:\source\SLAM\MySLAM\MySLAM\VirtualWorld2D.cpp(349,49): warning C4244: '=': '_Tp'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Tp=double
+          ]
+  MySLAM.vcxproj -> E:\source\SLAM\MySLAM\x64\Debug\MySLAM.exe

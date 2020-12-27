@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>E:\source\MySLAM\x64\Debug\MySLAM.exe</FullPath>
+      <FullPath>E:\source\SLAM\MySLAM\x64\Debug\MySLAM.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

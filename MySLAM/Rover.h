@@ -6,7 +6,9 @@ class Rover2D {
 public:
 
 	void Initialize(Pose2D pose_init);
+
 	void MoveNextWaypoint(Pose2D waypoint);
+	void MoveAccordingtoControl(Pose2D control);
 
 	std::vector<Pose2D> pose_trajectory;
 	Pose2D pose_last;

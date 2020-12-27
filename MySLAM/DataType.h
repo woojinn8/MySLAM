@@ -15,8 +15,8 @@ const struct RoverSpec {
 	const float max_sensor_range = 100;
 	const float max_sensor_fov = 60;
 
-	const float maxerror_sensor_range = 3;
-	const float maxerror_sensor_angle = 1;
+	const float maxerror_sensor_range = 5;
+	const float maxerror_sensor_angle = 3;
 	const float maxerror_moving_range = 1;
 	const float maxerror_moving_angle = 3;
 };

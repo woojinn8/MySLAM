@@ -44,24 +44,33 @@ void Rover2D::MoveNextWaypoint(Pose2D waypoint)
 			moving_range = dist_waypoint;
 	}
 
-	Pose2D control;
-	control = CreatePose(moving_range, moving_theta);
-	control_history.push_back(control);
+	Pose2D control = CreatePose(moving_range, moving_theta);
 
+	MoveAccordingtoControl(control);
+
+}
+
+void Rover2D::MoveAccordingtoControl(Pose2D control)
+{
+	// set control (direction & moving distance)
 	float range = CalRange(control);
 	float theta = Deg2Rad(pose_last.theta + control.theta);
+
+	// move
 	cv::Point2d moving_point;
 	moving_point.x = pose_last.location.x + round(range * cos(theta));
 	moving_point.y = pose_last.location.y + round(range * sin(theta));
-
 	Pose2D moved_pose;
-	float updated_deg = AdjustAngle(pose_last.theta + moving_theta);
+	float updated_deg = AdjustAngle(pose_last.theta + control.theta);
 	moved_pose = CreatePose(moving_point, updated_deg);
 
+	// update information
 	pose_trajectory.push_back(moved_pose);
+	control_history.push_back(control);
 
 	pose_last = GetLastPose();
 	control_last = GetLastControl();
+
 }
 
 Pose2D Rover2D::GetLastPose()
