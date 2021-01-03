@@ -45,23 +45,28 @@ void Rover2D::MoveNextWaypoint(Pose2D waypoint)
 	}
 
 	Pose2D control = CreatePose(moving_range, moving_theta);
+	Pose2D error = CreatePose(0.0, 0.0);
+	MoveAccordingtoControl(control, error);
 
-	MoveAccordingtoControl(control);
+	optimize.OptimizePose(pose_trajectory, control_history);
 
 }
 
-void Rover2D::MoveAccordingtoControl(Pose2D control)
+void Rover2D::MoveAccordingtoControl(Pose2D control, Pose2D error)
 {
+	// 컨트롤에 들어간 에러를 몰라야한다
+	// 즉 컨트롤, 에러 따로받아야한다
+
 	// set control (direction & moving distance)
-	float range = CalRange(control);
-	float theta = Deg2Rad(pose_last.theta + control.theta);
+	float range = CalRange(control) + CalRange(error);
+	float theta = Deg2Rad(pose_last.theta + control.theta + error.theta);
 
 	// move
 	cv::Point2d moving_point;
 	moving_point.x = pose_last.location.x + round(range * cos(theta));
 	moving_point.y = pose_last.location.y + round(range * sin(theta));
 	Pose2D moved_pose;
-	float updated_deg = AdjustAngle(pose_last.theta + control.theta);
+	float updated_deg = AdjustAngle(pose_last.theta + control.theta + error.theta);
 	moved_pose = CreatePose(moving_point, updated_deg);
 
 	// update information

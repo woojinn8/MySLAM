@@ -23,9 +23,9 @@ void VirtualWorld2D::run()
 		rover_inworld.MoveNextWaypoint(waypoints[cnt_waypoint]);	
 		
 		// add errored control to rover's inner information & move rover
-		Pose2D control_with_error = rover_inworld.control_last;
-		AddErrortoActuator(&control_with_error);
-		rover_inner.MoveAccordingtoControl(control_with_error);	
+		Pose2D control_error;// = rover_inworld.control_last;
+		AddErrortoActuator(&control_error);
+		rover_inner.MoveAccordingtoControl(rover_inworld.control_last, control_error);
 		
 		// Is rover arrive to waypoint?
 		float dist_rover_waypointl = CalDistancePose(rover_inworld.pose_last, waypoints[cnt_waypoint]);

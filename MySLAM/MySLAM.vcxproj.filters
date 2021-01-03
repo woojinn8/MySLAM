@@ -8,6 +8,9 @@
     <Filter Include="Simulator">
       <UniqueIdentifier>{2e31d21b-ab64-46f5-8cf0-d7f44ae92fc6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="SLAM">
+      <UniqueIdentifier>{1768167c-6f9f-4e92-b96a-8bba9260bc60}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -22,6 +25,9 @@
     <ClCompile Include="Rover.cpp">
       <Filter>Simulator</Filter>
     </ClCompile>
+    <ClCompile Include="GraphBasedSLAM.cpp">
+      <Filter>SLAM</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="VirtualWorld2D.h">
@@ -35,6 +41,9 @@
     </ClInclude>
     <ClInclude Include="Rover.h">
       <Filter>Simulator</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphBasedSLAM.h">
+      <Filter>SLAM</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

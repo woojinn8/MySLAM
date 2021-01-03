@@ -142,6 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GraphBasedSLAM.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Rover.cpp" />
     <ClCompile Include="util.cpp" />
@@ -149,6 +150,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataType.h" />
+    <ClInclude Include="GraphBasedSLAM.h" />
     <ClInclude Include="Rover.h" />
     <ClInclude Include="util.h" />
     <ClInclude Include="VirtualWorld2D.h" />

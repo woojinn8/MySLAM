@@ -2,9 +2,11 @@
 
 #include <opencv2/opencv.hpp>
 
+#define PI 3.1415926535897
+
 struct Pose2D {
-	cv::Point2d location;	// x, y position
-	float theta;			// degree
+	cv::Point2d location = cv::Point2d(0,0);	// x, y position
+	float theta = 0.0;			// degree
 };
 
 const struct RoverSpec {

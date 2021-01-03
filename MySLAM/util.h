@@ -2,7 +2,7 @@
 #include "DataType.h"
 #include <Eigen/Dense>
 
-#define PI 3.1415926535897
+
 
 
 float AdjustAngle(float theta);
